@@ -43,12 +43,12 @@
 
 The project called `E-KIOSKA` is an software project where it offers the possibility of withdrawing personal documents such as birth certificate, marriage certificate and residence certificate. In this software you can navigate into different programs which are “BirthCertificate”, “BirthCertificateDocumentManager”, “City”, “Document”, “DocumentManager”, “Gender”, “GenderBuild”, “KeyboardScanner”, “Main”, “MarriageCertificate”, “MarriageCertificateDocumentManager”, “Nationality”, “Person”, “RemoveType”, “ResidenceCertificate”, “ResidenceCertificateDocumentManager” and “Status”.
 
-This project started from scratch where I worked and completed, also I made some improvements in OOP of the back-end side of software development, such as the developing the entire software for extracting personal documents, added the functionality for birth certificate, marriage certificate and residence certificate, creating a manager for certificate and document, creating of some different functions, adding enumeration, adding validation, creating objects, also I created exceptions for number which is not in range and for string which is empty, also extracting of the certificate or the personal document by printing all data you given in console as document and many more things.
+This project started from scratch where I worked and completed, also I made some improvements in OOP of the back-end side of Software Development, such as the developing the entire software for extracting personal documents, added the functionality for birth certificate, marriage certificate and residence certificate, creating a manager for certificate and document, creating of some different functions, adding enumeration, adding validation, creating objects, also I created exceptions for number which is not in range and for string which is empty, also extracting of the certificate or the personal document by printing all data you given in console as document and many more things.
 
 
 ### Built With
 
-This workshop software project is based on Technologies like below:
+This workshop software project is based on technology like below:
 
 * Java
 
