@@ -48,7 +48,7 @@ This project started from scratch where I worked and completed, also I made some
 
 ### Built With
 
-This workshop software project is based on technology like below:
+This software project is based on technology like below:
 
 * Java
 
