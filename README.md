@@ -91,8 +91,6 @@ Distributed under the Apache License 2.0. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-**Facebook:** https://www.facebook.com/ndriqimi2001
-
 **LinkedIn:** https://www.linkedin.com/in/ndriçimlahu
 
 **Mail:** ndriqim_lahu@hotmail.com
