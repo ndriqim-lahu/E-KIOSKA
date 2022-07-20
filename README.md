@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img src="https://github.com/ndriqimlahu/NdriqimLahuPortfolio/blob/main/assets/portfolio/E-KIOSKA.png" alt="Logo" width="250" height="250">
+  <img src="https://github.com/ndriqimlahu/ndriqim-lahu-portfolio/blob/main/assets/portfolio/E-KIOSKA.png" alt="Logo" width="250" height="250">
   <h3 align="center">E-KIOSKA</h3>
   <p align="center">
     Ndriçim Lahu
@@ -68,7 +68,7 @@ In order to open this software is required to have an IDE (IntelliJ IDEA) or Cod
 
 1. Download the code or Clone the repo:
    ```terminal
-   git clone https://github.com/ndriqimlahu/E-KIOSKA.git
+   git clone https://github.com/ndriqimlahu/e-kioska.git
    ```
 2. Open the repo folder with your IDE or Code Editor.
 3. After that you can launch the software by running the programs with extension `.java` file.
