@@ -31,8 +31,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#copyright">Copyright</a></li>
     <li><a href="#support">Support</a></li>
   </ol>
 </details>
@@ -82,15 +81,23 @@ There you can see some useful additional screenshots of how the project looks li
 * Screenshots will be uploaded soon!
 
 
-<!-- LICENSE -->
-## License
+<!-- COPYRIGHT -->
+## Copyright
 
-Distributed under the Apache License 2.0. See `LICENSE` for more information.
+Copyright (c) 2022 Ndriçim Lahu, All Rights Reserved.
+
+This is a non-licensed project and not an open-source, which means the work is under exclusive copyright and protected.
+
+Permission is hereby granted, free of charge, to any person who download or clone the project repository from GitHub and use it safely.
+
+Hovewer, there are certain restrictions which are not permitted, including limiting the rights to copy, modify, merge, publish, distribute, and/or sell copies of this project, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
 
 
 <!-- SUPPORT -->
 ## Support
 
-Contributions, issues, and feature requests are welcome!
+Issues and feature requests are welcome!
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you liked this project!
+
+Support the author on <a href="https://www.buymeacoffee.com/ndriqimlahu">Buy Me a Coffee</a>
