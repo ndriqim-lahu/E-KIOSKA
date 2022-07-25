@@ -84,13 +84,7 @@ There you can see some useful additional screenshots of how the project looks li
 <!-- COPYRIGHT -->
 ## Copyright
 
-Copyright (c) 2022 Ndriçim Lahu, All Rights Reserved.
-
-This is a non-licensed project and not an open-source, which means the work is under exclusive copyright and protected.
-
-Permission is hereby granted, free of charge, to any person who download or clone the project repository from GitHub and use it safely.
-
-Hovewer, there are certain restrictions which are not permitted, including limiting the rights to copy, modify, merge, publish, distribute, and/or sell copies of this project, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
+See the `COPYRIGHT` file for more information.
 
 
 <!-- SUPPORT -->
