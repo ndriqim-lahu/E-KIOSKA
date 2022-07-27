@@ -48,19 +48,19 @@ public class MarriageCertificate extends Document
 
     @Override
     public String toString() {
-        return String.format("Marriage Certificate Nr %s\n" +
-                        "Name: %s                        Name: %s%n"  +
-                        "Surname: %s                  Surname: %s%n" +
-                        "PersonalNo: %d              PersonalNo: %d%n" +
-                        "BirthPlace: %s                 BirthPlace: %s%n" +
-                        "Gender: %s                           Gender: %s%n" +
-                        "Nationality: %s                Nationality: %s%n" +
-                        "Birthdate: %s               Birthdate: %s%n%n" +
-                        "              Marriage Date: %s%n"+
-                        "              Issue Date: %s%n" +
-                        "              Issue Place: %s%n" +
-                        "              Institution Name: %s%n" +
-                        "              Municipality: %s%n",
+        return String.format("Nr i çertifikatës së martesës %s\n" +
+                        "Emri: %s                        Emri: %s%n"  +
+                        "Mbiemri: %s                     Mbiemri: %s%n" +
+                        "Numri Personal: %d              Numri Personal: %d%n" +
+                        "Vendlindja: %s                  Vendlindja: %s%n" +
+                        "Gjinia: %s                      Gjinia: %s%n" +
+                        "Nacionaliteti: %s               Nacionaliteti: %s%n" +
+                        "Data e lindjes: %s              Data e lindjes: %s%n%n" +
+                        "              Data e martesës: %s%n"+
+                        "              Data e lëshimit: %s%n" +
+                        "              Vendi i lëshimit: %s%n" +
+                        "              Emri i Institucionit: %s%n" +
+                        "              Komuna: %s%n",
                 this.getDocumentId(),
                 this.person1.getName(),this.person2.getName(),
                 this.person1.getSurname(),this.person2.getSurname(),

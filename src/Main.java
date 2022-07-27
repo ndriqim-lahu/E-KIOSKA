@@ -9,7 +9,7 @@ public class Main
     public static Scanner user = new Scanner(System.in);
 
     public static void main(String[] args) throws NumberNotInRangeException, StringEmptyException {
-        System.out.println("Sistemi per menaxhimin online te dokumenteve.");
+        System.out.println("<-- Sistemi për Menaxhimin e Dokumenteve -->\n(Menaxhimi i Çertifikatave të Lindjes, Vendbanimit dhe Martesës).");
 
         while (true) {
             showMenu();
@@ -18,14 +18,14 @@ public class Main
 
     public static void showMenu() throws NumberNotInRangeException, StringEmptyException {
         System.out.println("-------------------------------------");
-        System.out.println("Type 1 to Manage birth certificates");
-        System.out.println("Type 2 to Manage residence certificates");
-        System.out.println("Type 3 to Manage marriage certificates");
-        System.out.println("Type 4 to print all certificates");
-        System.out.println("Type 5 to print summary of documents");
-        System.out.println("Type X to exit");
+        System.out.println("Shtypni 1 për të menaxhuar çertifikatat e lindjes");
+        System.out.println("Shtypni 2 për të menaxhuar çertifikatat e vendbanimit");
+        System.out.println("Shtypni 3 për të menaxhuar çertifikatat e martesës");
+        System.out.println("Shtypni 4 për të printuar të gjitha çertifikatat");
+        System.out.println("Shtypni 5 për të printuar përmbledhje të dokumenteve");
+        System.out.println("Shtypni X për të dalë nga sistemi");
         System.out.println("-------------------------------------");
-        System.out.println("Please choose one of the numbers above:  ");
+        System.out.println("Ju lutemi zgjidhni një nga numrat e mësipërm: ");
 
         String selectedMenu = KeyboardScanner.readString();
 
@@ -49,13 +49,13 @@ public class Main
                 docManager.summary();
                 break;
             case "x":
-                System.out.println("Ju keni mbyllur sistemin per menaxhimin online te dokumenteve me sukses.");
+                System.out.println("Ju keni mbyllur sistemin për menaxhimin e dokumenteve me sukses.");
                 System.exit(0);
             default:
-                System.out.println("Ju lutem zgjedhni njerin nga opsionet me larte");
+                System.out.println("Ju lutemi zgjidhni njërin nga opsionet më lartë.");
                 break;
         }
         System.out.println();
-        System.out.println("Operacioni eshte kryer.");
+        System.out.println("Operacioni është kryer.");
     }
 }

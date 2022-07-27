@@ -48,8 +48,8 @@ public class BirthCertificate extends Document
 
     @Override
     public String toString() {
-        return String.format("BirthCertificate Nr %s\nName: %s%nSurname: %s%nPersonalNo: %d%nBirthPlace: %s%nGender: %s%nNationality: %s%nBirthdate: %s%n" +
-                        "Issue Date: %s%nIssue Place: %s%nInstitution Name: %s%nMunicipality: %s%nFather Name: %s%nMother Name: %s%n-------------------------------%n",
+        return String.format("Nr i çertifikatës së lindjes %s\nEmri: %s%nMbiemri: %s%nNumri Personal: %d%nVendlindja: %s%nGjinia: %s%nNacionaliteti: %s%nData e lindjes: %s%n" +
+                        "Data e lëshimit: %s%nVendi i lëshimit: %s%nEmri i Institucionit: %s%nKomuna: %s%nEmri i babait: %s%nEmri i nënës: %s%n-------------------------------%n",
                 this.getDocumentId(),
                 this.person.getName(),
                 this.person.getSurname(),
@@ -59,7 +59,7 @@ public class BirthCertificate extends Document
                 this.person.getNationality(),
                 this.person.getBirthDate().toString(),
                 getIssuedDate(),getIssuedPlace(),getIssueInstitution(),getMunicipality(),
-                (this.getPersonFather() != null) ? getPersonFather() : "Ska babe",
-                (this.getPersonMother() != null) ? getPersonMother() : "Ska nane");
+                (this.getPersonFather() != null) ? getPersonFather() : "Nuk ka babë",
+                (this.getPersonMother() != null) ? getPersonMother() : "Nuk ka nënë");
     }
 }

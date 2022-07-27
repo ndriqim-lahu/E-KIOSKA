@@ -26,7 +26,7 @@ public class Person
 
     public void setName(String name) throws Exception {
         if(name.isEmpty() || name.isBlank())
-            throw new Exception("Emri nuk duhet te jete i zbrazet");
+            throw new Exception("Emri nuk duhet të qëndrojë i zbrazët.");
         else{
             this.name = name;
         }
@@ -38,7 +38,7 @@ public class Person
 
     public void setSurname(String surname) throws Exception {
         if(surname.isEmpty() || surname.isBlank())
-            throw new Exception("Mbiemri nuk duhet te jete i zbrazet");
+            throw new Exception("Mbiemri nuk duhet të qëndrojë i zbrazët.");
         else{
             this.surname = surname;
         }
@@ -53,7 +53,7 @@ public class Person
             this.personalNo = personalNo;
         }
         else {
-            throw new Exception("Numri personal duhet ti te jete  shifra");
+            throw new Exception("Numri personal duhet të shënohet me shifra.");
         }
     }
 

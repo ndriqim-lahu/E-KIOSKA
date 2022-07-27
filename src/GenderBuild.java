@@ -4,6 +4,6 @@ public class GenderBuild
         if (gender.equals("M")) return Gender.M;
         if (gender.equals("F")) return Gender.F;
 
-        throw new Exception("Invalid selected gender.");
+        throw new Exception("Gjinia e zgjedhur është e pavlefshme.");
     }
 }

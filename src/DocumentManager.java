@@ -116,7 +116,7 @@ public class DocumentManager
                 marriageCertificates++;
         }
 
-        System.out.printf("Total certifikata te regjistruara: %nCertifikata te lindjes jane: %d%nCertikata te vendbanimit jane: %d%nCertifikata martesore jane: %d%n",
+        System.out.printf("Totali i çertifikatave të regjistruara: %nÇertifikata të lindjes janë: %d%nÇertifikata të vendbanimit janë: %d%nÇertifikata të martesës janë: %d%n",
                 birthCertificates,residenceCertificates,marriageCertificates);
     }
 }

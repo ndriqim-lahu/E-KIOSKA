@@ -10,12 +10,12 @@ public class MarriageCertificateDocumentManager
 
     public void showMenu() {
         System.out.println("-------------------------------------");
-        System.out.println("Type 1 to add new marriage certificate");
-        System.out.println("Type 2 to print your marriage certificate");
-        System.out.println("Type 3 to remove certificate");
-        System.out.println("Type X to exit");
+        System.out.println("Shtypni 1 për të shtuar çertifikatë të re të martesës");
+        System.out.println("Shtypni 2 për të printuar çertifikatën tuaj të martesës");
+        System.out.println("Shtypni 3 për të hequr çertifikatën");
+        System.out.println("Shtypni X për të dalë nga sistemi");
         System.out.println("-------------------------------------");
-        System.out.println("Please choose one of the numbers above:  ");
+        System.out.println("Ju lutemi zgjidhni një nga numrat e mësipërm: ");
 
         String selectedMenu = KeyboardScanner.readString();
 
@@ -34,18 +34,18 @@ public class MarriageCertificateDocumentManager
     }
 
     private void findAndRemoveCertificate() {
-        System.out.println("Shenoni numrin personl te personit.");
+        System.out.println("Shënoni numrin personal të personit: ");
         var searchPersonalNo = KeyboardScanner.readInteger();
 
         MarriageCertificate certificate = findMarriageCertificate(searchPersonalNo);
 
         if (certificate == null){
-            System.out.println("Certifikata e ketij personi nuk eshte gjetur.");
+            System.out.println("Çertifikata e këtij personi nuk është gjetur.");
             return;
         }
 
         documentManager.remove(searchPersonalNo, RemoveType.MARRIAGE_CERTIFICATE);
-        System.out.println("Certifikata e ketij personi eshte larguar me sukses.");
+        System.out.println("Çertifikata e këtij personi është larguar me sukses.");
     }
 
     private MarriageCertificate findMarriageCertificate(int personalNo) {
@@ -58,13 +58,13 @@ public class MarriageCertificateDocumentManager
     }
 
     private void findAndPrintCertificate() {
-        System.out.println("Shenoni numrin personl te personit.");
+        System.out.println("Shënoni numrin personal të personit: ");
         var searchPersonalNo = KeyboardScanner.readInteger();
 
         MarriageCertificate certificate = findMarriageCertificate(searchPersonalNo);
 
         if (certificate == null) {
-            System.out.println("Certifikata e marteses nuk eshte gjetur.");
+            System.out.println("Çertifikata e martesës nuk është gjetur.");
             return;
         }
 
@@ -72,48 +72,48 @@ public class MarriageCertificateDocumentManager
     }
 
     private void createMarriageCertificate() {
-        System.out.println("Sheno te dhenat e kerkuara: ");
+        System.out.println("Shënoni të dhënat e kërkuara: ");
 
-        System.out.println("Shenoni emrin personit 1: ");
+        System.out.println("Shënoni emrin e personit 1: ");
         var person1Name = KeyboardScanner.readString();
 
-        System.out.println("Shenoni emrin personit 2: ");
+        System.out.println("Shënoni emrin e personit 2: ");
         var person2Name = KeyboardScanner.readString();
 
-        System.out.println("Shenoni mbiemrin personit 1: ");
+        System.out.println("Shënoni mbiemrin e personit 1: ");
         var person1Surname = KeyboardScanner.readString();
 
-        System.out.println("Shenoni mbiemrin personit 2: ");
+        System.out.println("Shënoni mbiemrin e personit 2: ");
         var person2Surname = KeyboardScanner.readString();
 
-        System.out.println("Shenoni numrin personal te personit 1: ");
+        System.out.println("Shënoni numrin personal të personit 1: ");
         var person1PersonalNo = KeyboardScanner.readInteger();
 
-        System.out.println("Shenoni numrin personal te personit 2: ");
+        System.out.println("Shënoni numrin personal të personit 2: ");
         var person2PersonalNo = KeyboardScanner.readInteger();
 
-        System.out.println("Shenoni gjinine e personit 1 (M ose F): ");
+        System.out.println("Shënoni gjininë e personit 1 (M ose F): ");
         var person1Gender = KeyboardScanner.readString();
 
-        System.out.println("Shenoni gjinine e personit 2 (M ose F): ");
+        System.out.println("Shënoni gjininë e personit 2 (M ose F): ");
         var person2Gender = KeyboardScanner.readString();
 
-        System.out.println("Shenoni nacionalitetin e personit 1 (KOSOVAR, TURK, BOSHNJAK, ROM, OSE GORAN): ");
+        System.out.println("Shënoni nacionalitetin e personit 1 (KOSOVAR, TURK, BOSHNJAK, ROM, OSE GORAN): ");
         var person1Nationality = KeyboardScanner.readString();
 
-        System.out.println("Shenoni nacionalitetin e personit 2 (KOSOVAR, TURK, BOSHNJAK, ROM, OSE GORAN): ");
+        System.out.println("Shënoni nacionalitetin e personit 2 (KOSOVAR, TURK, BOSHNJAK, ROM, OSE GORAN): ");
         var person2Nationality = KeyboardScanner.readString();
 
-        System.out.println("Shenoni daten e lindjes se personit 1 (yyyy-mm-dd): ");
+        System.out.println("Shënoni datën e lindjes së personit 1 (yyyy-mm-dd): ");
         String person1Birthdate = KeyboardScanner.readString();
 
-        System.out.println("Shenoni daten e lindjes se personit 2 (yyyy-mm-dd): ");
+        System.out.println("Shënoni datën e lindjes së personit 2 (yyyy-mm-dd): ");
         String person2Birthdate = KeyboardScanner.readString();
 
-        System.out.println("Shenoni vendin e lindjes se personit 1: ");
+        System.out.println("Shënoni vendin e lindjes së personit 1: ");
         String person1Birthplace = KeyboardScanner.readString();
 
-        System.out.println("Shenoni vendin e lindjes se personit 2: ");
+        System.out.println("Shënoni vendin e lindjes së personit 2: ");
         String person2Birthplace = KeyboardScanner.readString();
 
        try {
@@ -127,7 +127,7 @@ public class MarriageCertificateDocumentManager
 
            documentManager.add(marriageCertificate);
 
-           System.out.println("Certificata e marteses eshte regjistruar me sukses.");
+           System.out.println("Çertificata e martesës është regjistruar me sukses.");
        }
        catch (Exception ex) {
            System.out.println(ex.getMessage());

@@ -10,13 +10,13 @@ public class ResidenceCertificateDocumentManager
 
     public void showMenu() {
         System.out.println("-------------------------------------");
-        System.out.println("Type 1 to add new residence certificate");
-        System.out.println("Type 2 to print your residence certificate");
-        System.out.println("Type 3 to modify data for a person");
-        System.out.println("Type 4 to remove certificate");
-        System.out.println("Type X to exit");
+        System.out.println("Shtypni 1 për të shtuar çertifikatë të re të vendbanimit");
+        System.out.println("Shtypni 2 për të printuar çertifikatën tuaj të vendbanimit");
+        System.out.println("Shtypni 3 për të modifikuar të dhënat për një person");
+        System.out.println("Shtypni 4 për të hequr çertifikatën");
+        System.out.println("Shtypni X për të dalë nga sistemi");
         System.out.println("-------------------------------------");
-        System.out.println("Please choose one of the numbers above:  ");
+        System.out.println("Ju lutemi zgjidhni një nga numrat e mësipërm: ");
 
         String selectedMenu = KeyboardScanner.readString();
 
@@ -38,18 +38,18 @@ public class ResidenceCertificateDocumentManager
     }
 
     private void findAndRemoveCertificate() {
-        System.out.println("Shenoni numrin personl te personit.");
+        System.out.println("Shënoni numrin personal të personit: ");
         var searchPersonalNo = KeyboardScanner.readInteger();
 
         ResidenceCertificate certificate = findResidenceCertificate(searchPersonalNo);
 
         if (certificate == null){
-            System.out.println("Certifikata e ketij personi nuk eshte gjetur.");
+            System.out.println("Çertifikata e këtij personi nuk është gjetur.");
             return;
         }
 
         documentManager.remove(searchPersonalNo, RemoveType.RESIDENCE_CERTIFICATE);
-        System.out.println("Certifikata e ketij personi eshte larguar me sukses.");
+        System.out.println("Çertifikata e këtij personi është larguar me sukses.");
 
     }
 
@@ -63,58 +63,58 @@ public class ResidenceCertificateDocumentManager
     }
 
     private void findAndModifyCertificate() {
-        System.out.println("Shenoni numrin personl te personit.");
+        System.out.println("Shënoni numrin personal të personit: ");
         var searchPersonalNo = KeyboardScanner.readInteger();
 
         ResidenceCertificate certificate = findResidenceCertificate(searchPersonalNo);
 
         if (certificate == null) {
-            System.out.println("Certifikata e ketij personi nuk eshte gjetur.");
+            System.out.println("Çertifikata e këtij personi nuk është gjetur.");
             return;
         }
 
-        System.out.println("Shenoni te dhenat e reja te personit. Leni boshe nese nuk deshironi ti nderroni.");
+        System.out.println("Shënoni të dhënat e reja të personit. Lëreni boshe nëse nuk dëshironi që t'i ndryshoni.");
 
-        System.out.println("Shenoni emrin personit: ");
+        System.out.println("Shënoni emrin e personit: ");
         var name = KeyboardScanner.readString();
 
-        System.out.println("Shenoni mbiemrin personit: ");
+        System.out.println("Shënoni mbiemrin e personit: ");
         var surname = KeyboardScanner.readString();
 
-        System.out.println("Shenoni numrin perosnal te personit: ");
+        System.out.println("Shënoni numrin personal të personit: ");
         var personalNo = KeyboardScanner.readInteger();
 
-        System.out.println("Shenoni gjinine e personit (M ose F): ");
+        System.out.println("Shënoni gjininë e personit (M ose F): ");
         var gender = KeyboardScanner.readString();
 
-        System.out.println("Shenoni nacionalitetin e personit (KOSOVAR, TURK, BOSHNJAK, ROM, OSE GORAN): ");
+        System.out.println("Shënoni nacionalitetin e personit (KOSOVAR, TURK, BOSHNJAK, ROM, OSE GORAN): ");
         var nationality = KeyboardScanner.readString();
 
-        System.out.println("Shenoni daten e lindjes se personit (yyyy-mm-dd): ");
+        System.out.println("Shënoni datën e lindjes së personit (yyyy-mm-dd): ");
         String birthdate = KeyboardScanner.readString();
 
-        System.out.println("Shenoni vendin e lindjes se personit: ");
+        System.out.println("Shënoni vendin e lindjes së personit: ");
         String birthplace = KeyboardScanner.readString();
 
-        System.out.println("Shenoni gjendjen martesore aktuale (BEQAR, MARTUAR OSE DIVORCUAR): ");
+        System.out.println("Shënoni gjendjen aktuale martesore (BEQAR, MARTUAR OSE DIVORCUAR): ");
         String status = KeyboardScanner.readString();
 
-        System.out.println("Shenoni vendbanimin aktual: ");
+        System.out.println("Shënoni vendbanimin aktual: ");
         String vendBanimiActual = KeyboardScanner.readString();
 
         var personi = certificate.getPerson();
 
-        System.out.println("Certifikata eshte bere update me sukses.");
+        System.out.println("Çertifikata është përditësuar me sukses.");
     }
 
     private void findAndPrintCertificate() {
-        System.out.println("Shenoni numrin personl te personit.");
+        System.out.println("Shënoni numrin personal të personit: ");
         var searchPersonalNo = KeyboardScanner.readInteger();
 
         ResidenceCertificate residenceCertificate = findResidenceCertificate(searchPersonalNo);
 
         if (residenceCertificate == null) {
-            System.out.println("Certifikata e ketij personi nuk eshte gjetur.");
+            System.out.println("Çertifikata e këtij personi nuk është gjetur.");
             return;
         }
 
@@ -122,37 +122,37 @@ public class ResidenceCertificateDocumentManager
     }
 
     private void createResidenceCertificate()  {
-        System.out.println("Shenoni emrin e personit: ");
+        System.out.println("Shënoni emrin e personit: ");
         var name = KeyboardScanner.readString();
 
-        System.out.println("Shenoni mbiemrin e personit: ");
+        System.out.println("Shënoni mbiemrin e personit: ");
         var surname = KeyboardScanner.readString();
 
-        System.out.println("Shenoni numrin personal te personit: ");
+        System.out.println("Shënoni numrin personal të personit: ");
         var personalNo = KeyboardScanner.readInteger();
 
-        System.out.println("Shenoni gjinine e personit (M ose F): ");
+        System.out.println("Shënoni gjininë e personit (M ose F): ");
         var gender = KeyboardScanner.readString();
 
-        System.out.println("Shenoni nacionalitetin e personit (KOSOVAR, TURK, BOSHNJAK, ROM, OSE GORAN): ");
+        System.out.println("Shënoni nacionalitetin e personit (KOSOVAR, TURK, BOSHNJAK, ROM, OSE GORAN): ");
         var nationality = KeyboardScanner.readString();
 
-        System.out.println("Shenoni daten e lindjes se personit (yyyy-mm-dd): ");
+        System.out.println("Shënoni datën e lindjes së personit (yyyy-mm-dd): ");
         String birthdate = KeyboardScanner.readString();
 
-        System.out.println("Shenoni vendin e lindjes se personit: ");
+        System.out.println("Shënoni vendin e lindjes së personit: ");
         String birthplace = KeyboardScanner.readString();
 
-        System.out.println("Shenoni emrin e babait: ");
+        System.out.println("Shënoni emrin e babait: ");
         String father = KeyboardScanner.readString();
 
-        System.out.println("Shenoni emrin e nenes: ");
+        System.out.println("Shënoni emrin e nënës: ");
         String mother = KeyboardScanner.readString();
 
-        System.out.println("Shenoni gjendjen martesore aktuale (BEQAR, MARTUAR OSE DIVORCUAR): ");
+        System.out.println("Shënoni gjendjen aktuale martesore (BEQAR, MARTUAR OSE DIVORCUAR): ");
         String status = KeyboardScanner.readString();
 
-        System.out.println("Shenoni vendbanimin aktual: ");
+        System.out.println("Shënoni vendbanimin aktual: ");
         String vendbanimiActual = KeyboardScanner.readString();
 
       try {
@@ -161,7 +161,7 @@ public class ResidenceCertificateDocumentManager
           var certificate = ResidenceCertificate.GenerateResidenceCertificate(person,Status.valueOf(status),vendbanimiActual,father,mother);
 
           documentManager.add(certificate);
-          System.out.println("Certificata e vendbanimit eshte regjistruar me sukses.");
+          System.out.println("Çertificata e vendbanimit është regjistruar me sukses.");
       }
       catch (Exception ex) {
           System.out.println(ex.getMessage());
