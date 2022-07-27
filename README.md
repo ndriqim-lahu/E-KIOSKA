@@ -70,7 +70,7 @@ In order to open this software is required to have an IDE (IntelliJ IDEA) or Cod
    git clone https://github.com/ndriqimlahu/e-kioska.git
    ```
 2. Open the repo folder with your IDE or Code Editor.
-3. After that you can launch the software by running the programs with extension `.java` file.
+3. After that you can run and explore this software by clicking the `Main.java` file.
 
 
 <!-- USAGE -->
