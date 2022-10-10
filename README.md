@@ -40,14 +40,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The project called `E-KIOSKA` is an software project where it offers the possibility of withdrawing personal documents such as birth certificate, marriage certificate and residence certificate. In this software you can navigate into different programs which are “BirthCertificate”, “BirthCertificateDocumentManager”, “City”, “Document”, “DocumentManager”, “Gender”, “GenderBuild”, “KeyboardScanner”, “Main”, “MarriageCertificate”, “MarriageCertificateDocumentManager”, “Nationality”, “Person”, “RemoveType”, “ResidenceCertificate”, “ResidenceCertificateDocumentManager” and “Status”.
+The project called `E-KIOSKA` is an software application where it offers the possibility of withdrawing personal documents such as birth certificate, marriage certificate and residence certificate. In this software you can navigate into different programs which are “BirthCertificate”, “BirthCertificateDocumentManager”, “City”, “Document”, “DocumentManager”, “Gender”, “GenderBuild”, “KeyboardScanner”, “Main”, “MarriageCertificate”, “MarriageCertificateDocumentManager”, “Nationality”, “Person”, “RemoveType”, “ResidenceCertificate”, “ResidenceCertificateDocumentManager” and “Status”.
 
 This project started from scratch where I worked and completed, also I made some improvements in OOP of the back-end side of Software Development, such as the developing the entire software for extracting personal documents, added the functionality for birth certificate, marriage certificate and residence certificate, creating a manager for certificate and document, creating of some different functions, adding enumeration, adding validation, creating objects, also I created exceptions for number which is not in range and for string which is empty, also extracting of the certificate or the personal document by printing all data you given in console as document and many more things.
 
 
 ### Built With
 
-This software project is based on technology like below:
+This software application is based on technology like below:
 
 * Java
 
@@ -60,7 +60,7 @@ By getting started with the project, first you need to take a look at the requir
 
 ### Prerequisites
 
-In order to open this software is required to have an IDE (IntelliJ IDEA) or Code Editor (Visual Studio Code).
+In order to open this software application is required to have an IDE (IntelliJ IDEA) or Code Editor (Visual Studio Code).
 
 
 ### Installation
@@ -70,7 +70,7 @@ In order to open this software is required to have an IDE (IntelliJ IDEA) or Cod
    git clone https://github.com/ndriqimlahu/e-kioska.git
    ```
 2. Open the repo folder with your IDE or Code Editor.
-3. After that you can run and explore this software by clicking the `Main.java` file.
+3. After that you can run and explore this software application by clicking the `Main.java` file.
 
 
 <!-- USAGE -->
