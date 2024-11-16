@@ -1,149 +1,108 @@
-<!-- PROJECT LOGO -->
-<p align="center">
-  <img src="https://github.com/ndriqimlahu/ndriqim-lahu-portfolio/blob/main/assets/portfolio/E-KIOSKA.png" alt="Logo" width="250" height="250">
-  <h3 align="center">E-KIOSKA</h3>
-  <p align="center">
-    Ndriçim Lahu
-    <br>
-    <br>
-    <a href="https://github.com/ndriqimlahu/e-kioska/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/ndriqimlahu/e-kioska/issues">Request Feature</a>
-  </p>
-</p>
+# E-KIOSKA
 
+**E-KIOSKA** is a software application designed to simplify the management of personal documents. It allows users to add, print, modify, and remove various types of certificates, including birth certificates, residence certificates, and marriage certificates. The application provides a system for users to easily manage and access their important personal documents.
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#support">Support</a></li>
-  </ol>
-</details>
+This project provides a practical tool for organizing certificate documents. With its straightforward interface and implementation of advanced programming principles, it provides an effective solution for document management. The software streamlines the entire process of managing certificates, ensuring both efficiency and accuracy in handling important personal documents.
 
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-The project called `E-KIOSKA` is an software application where it offers the possibility of withdrawing personal documents such as birth certificate, marriage certificate and residence certificate. In this software you can navigate into different programs which are “BirthCertificate”, “BirthCertificateDocumentManager”, “City”, “Document”, “DocumentManager”, “Gender”, “GenderBuild”, “KeyboardScanner”, “Main”, “MarriageCertificate”, “MarriageCertificateDocumentManager”, “Nationality”, “Person”, “RemoveType”, “ResidenceCertificate”, “ResidenceCertificateDocumentManager” and “Status”.
-
-This project started from scratch where I worked and completed, also I made some improvements in OOP of the back-end side of Software Development, such as the developing the entire software for extracting personal documents, added the functionality for birth certificate, marriage certificate and residence certificate, creating a manager for certificate and document, creating of some different functions, adding enumeration, adding validation, creating objects, also I created exceptions for number which is not in range and for string which is empty, also extracting of the certificate or the personal document by printing all data you given in console as document and many more things.
-
-
-### Built With
+## Built With
 
 This software application is based on technology like below:
-
 * Java
 
+## Features
 
-<!-- GETTING STARTED -->
-## Getting Started
+✅ **Add Personal Documents:** Easily add personal documents such as birth certificates, residence certificates, and marriage certificates to the system.
 
-By getting started with the project, first you need to take a look at the required `Prerequisites` and after that the `Installation` steps.
+✅ **Edit and Modify Documents:** Quickly update existing documents using a straightforward interface designed for efficiency.
 
+✅ **Print Documents:** Print certificates directly from the application with a few clicks, providing easy access to printed certificates.
 
-### Prerequisites
+✅ **Remove Documents:** Safely delete unnecessary documents from the system to keep it well-organized.
 
-In order to open this software application is required to have an IDE (IntelliJ IDEA) or Code Editor (Visual Studio Code).
+✅ **Print All Documents:** Print all stored certificates at once, saving time and effort for batch printing tasks.
 
+✅ **Print Document Summary:** Generate and print a summary of all stored documents, offering an overview of the certificates in the system.
 
-### Installation
+✅ **Document Categorization:** Automatically categorize documents by type (birth, residence, marriage) for improved organization and quicker access.
 
-1. Download the code or Clone the repo:
-   ```terminal
+## Prerequisites
+
+Before starting, ensure that the [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/) is installed on your system.
+- Follow the [installation guide](https://docs.oracle.com/en/java/javase/23/install/overview-jdk-installation.html) to download, install and set it up correctly.
+- Verify your JDK installation by running the following command in your terminal:
+   ```
+   java -version
+   ```
+- Ensure your system's `PATH` is properly configured to allow Java commands to run globally from any location.
+
+## Installation
+
+1. Clone or download the repository to your local machine:
+   ```
    git clone https://github.com/ndriqimlahu/e-kioska.git
    ```
-2. Open the repo folder with your IDE or Code Editor.
-3. After that you can run and explore this software application by clicking the `Main.java` file.
+2. Open the repository folder in your preferred IDE or code editor.
+3. Navigate to the `src` directory and locate the `Main.java` file to launch the application.
+4. Compile and run the application using your IDE's built-in tools or code editor extensions.
 
+## Screenshots
 
-<!-- USAGE -->
-## Usage
+Below you can see some additional useful screenshots of what the software looks like and how it can be used:
 
-There you can see some useful additional screenshots of how the project looks like and how can be used.
-
-* Hapja e Softuerit (Run)
+* Launching the software application
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/01-Hapja%20e%20Softuerit%20(Run).png">
 
-* Menaxhimi i çertifikatave të lindjes (Shtypni 1)
+* Start menu — Press 1 to manage birth certificates
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/02.1-Menaxhimi%20i%20%C3%A7ertifikatave%20t%C3%AB%20lindjes%20(Shtypni%201).png">
 
-* Shtimi i çertifikatës së re të lindjes (Shtypni 1)
+* Management of birth certificates — Press 1 to add a new birth certificate and fill in the required data
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/02.2-Shtimi%20i%20%C3%A7ertifikat%C3%ABs%20s%C3%AB%20re%20t%C3%AB%20lindjes%20(Shtypni%201).png">
 
-* Printimi i çertifikatës së lindjes (Shtypni 2)
+* Management of birth certificates — Press 2 to print the birth certificate
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/02.3-Printimi%20i%20%C3%A7ertifikat%C3%ABs%20s%C3%AB%20lindjes%20(Shtypni%202).png">
 
-* Modifikimi i çertifikatës së lindjes (Shtypni 3)
+* Management of birth certificates — Press 3 to modify the birth certificate
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/02.4-Modifikimi%20i%20%C3%A7ertifikat%C3%ABs%20s%C3%AB%20lindjes%20(Shtypni%203).png">
 
-* Heqja e çertifikatës së lindjes (Shtypni 4)
+* Management of birth certificates — Press 4 to remove the birth certificate
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/02.5-Heqja%20e%20%C3%A7ertifikat%C3%ABs%20s%C3%AB%20lindjes%20(Shtypni%204).png">
 
-* Menaxhimi i çertifikatave të vendbanimit (Shtypni 2)
+* Start menu — Press 2 to manage residence certificates
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/03.1-Menaxhimi%20i%20%C3%A7ertifikatave%20t%C3%AB%20vendbanimit%20(Shtypni%202).png">
 
-* Shtimi i çertifikatës së re të vendbanimit (Shtypni 1)
+* Management of residence certificates — Press 1 to add a new residence certificate and fill in the required data
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/03.2-Shtimi%20i%20%C3%A7ertifikat%C3%ABs%20s%C3%AB%20re%20t%C3%AB%20vendbanimit%20(Shtypni%201).png">
 
-* Printimi i çertifikatës së vendbanimit (Shtypni 2)
+* Management of residence certificates — Press 2 to print the residence certificate
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/03.3-Printimi%20i%20%C3%A7ertifikat%C3%ABs%20s%C3%AB%20vendbanimit%20(Shtypni%202).png">
 
-* Modifikimi i çertifikatës së vendbanimit (Shtypni 3)
+* Management of residence certificates — Press 3 to modify the residence certificate
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/03.4-Modifikimi%20i%20%C3%A7ertifikat%C3%ABs%20s%C3%AB%20vendbanimit%20(Shtypni%203).png">
 
-* Heqja e çertifikatës së vendbanimit (Shtypni 4)
+* Management of residence certificates — Press 4 to remove the residence certificate
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/03.5-Heqja%20e%20%C3%A7ertifikat%C3%ABs%20s%C3%AB%20vendbanimit%20(Shtypni%204).png">
 
-* Menaxhimi i çertifikatave të martesës (Shtypni 3)
+* Start menu — Press 3 to manage marriage certificates
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/04.1-Menaxhimi%20i%20%C3%A7ertifikatave%20t%C3%AB%20martes%C3%ABs%20(Shtypni%203).png">
 
-* Shtimi i çertifikatës së re të martesës (Shtypni 1)
+* Management of marriage certificates — Press 1 to add a new marriage certificate and fill in the required data
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/04.2-Shtimi%20i%20%C3%A7ertifikat%C3%ABs%20s%C3%AB%20re%20t%C3%AB%20martes%C3%ABs%20(Shtypni%201).png">
 
-* Printimi i çertifikatës së martesës (Shtypni 2)
+* Management of marriage certificates — Press 2 to print the marriage certificate
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/04.3-Printimi%20i%20%C3%A7ertifikat%C3%ABs%20s%C3%AB%20martes%C3%ABs%20(Shtypni%202).png">
 
-* Heqja e çertifikatës së martesës (Shtypni 3)
+* Management of marriage certificates — Press 3 to remove the marriage certificate
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/04.4-Heqja%20e%20%C3%A7ertifikat%C3%ABs%20s%C3%AB%20martes%C3%ABs%20(Shtypni%203).png">
 
-* Printimi i të gjitha çertifikatave (Shtypni 4)
+* Start menu — Press 4 to print all certificates
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/05-Printimi%20i%20t%C3%AB%20gjitha%20%C3%A7ertifikatave%20(Shtypni%204).png">
 
-* Printimi i përmbledhjes së çertifikatave (Shtypni 5)
+* Start menu — Press 5 to print a summary of the documents
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/06-Printimi%20i%20p%C3%ABrmbledhjes%20s%C3%AB%20%C3%A7ertifikatave%20(Shtypni%205).png">
 
-* Dalja nga Softueri (Shtypni X)
+* Start menu — Press X to exit the software
 <img src="https://raw.githubusercontent.com/ndriqimlahu/e-kioska/master/preview/07-Dalja%20nga%20Softueri%20(Shtypni%20X).png">
 
-
-<!-- LICENSE -->
-## License
-
-See the `LICENSE` file for more information.
-
-
-<!-- SUPPORT -->
 ## Support
 
-Issues and feature requests are welcome!
-
-Give a ⭐️ if you liked this project!
-
-Support the author on <a href="https://www.buymeacoffee.com/ndriqimlahu">Buy Me a Coffee</a>
+If you find this project useful, please consider giving it a star!
